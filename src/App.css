@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+:root {
+  box-sizing: border-box;
+  --gray: #e5e7eb;
+  --dark-gray: #6b7280;
+  --hover-dark: #111827;
+  --white: #f9fafb;
+  --text1: #513737;
+  --line: #d1d5db;
+  --true: #28776d;
+  --false: #d44c57;
+  --white: #ffffff;
+}

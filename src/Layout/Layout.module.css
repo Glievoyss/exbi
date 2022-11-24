@@ -1,0 +1,31 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.wrapSideBar {
+  min-width: 23rem;
+  height: 100%;
+  border-right: 1px solid var(--gray);
+}
+
+.menu {
+  padding: 2rem;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+.icon {
+  width: 6rem;
+}
+
+.pageWrap {
+  width: 100%;
+  padding: 2rem;
+}

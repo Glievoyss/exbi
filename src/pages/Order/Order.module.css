@@ -1,0 +1,50 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.wrapSideBar {
+  width: 23rem;
+  height: 100%;
+  border-right: 1px solid var(--gray);
+}
+
+.pageHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapInteractive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trBody {
+  height: 3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.trBody:hover {
+  border-radius: 10px 10px 10px 10px;
+  height: 3rem;
+  background-color: var(--line);
+}
+
+.trBody:hover:last-child {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.tdBody {
+  border-bottom: 1px solid var(--line);
+}
+
+.tdBody:first-child {
+  padding: 0 2rem;
+}
+
+.tdBody:last-child {
+  padding: 0 2rem 0 0;
+}

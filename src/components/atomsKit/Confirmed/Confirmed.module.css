@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.75rem;
+  background-color: var(--true);
+  border-radius: 50px;
+  color: var(--white);
+  padding: 0 0.5rem;
+}
+
+.timeOut {
+  background-color: var(--false);
+}

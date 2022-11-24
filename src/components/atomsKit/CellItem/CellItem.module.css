@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  min-width: 2rem;
+  min-height: 2rem;
+  margin-right: 0.75rem;
+}
+
+.description {
+  color: var(--dark-gray);
+}

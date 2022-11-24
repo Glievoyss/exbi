@@ -1,0 +1,36 @@
+.wrap {
+  height: 100%;
+}
+
+.title {
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+}
+
+.itemList {
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  width: calc(100%-1.6875rem);
+  height: 4.25rem;
+  padding: 0 1.6875rem;
+  border-radius: 50px;
+}
+
+.link:hover span,
+.link:hover svg {
+  color: var(--white);
+}
+
+.link:hover {
+  background-color: var(--hover-dark);
+}
+
+.linkName {
+  margin-left: 0.6875rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
