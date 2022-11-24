@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "components/atomsKit/Elements";
+import Icon  from "../../atomsKit/Icon/Icon";
 // @ts-ignore
 import classes from "./ButtonIcon.module.css";
 

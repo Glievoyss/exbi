@@ -1,10 +1,9 @@
-import { MenuList } from "components/atomsKit/Elements";
-import { Icon, ButtonIcon } from "components/atomsKit/Elements";
+import { Icon, ButtonIcon, MenuList } from "../components/atomsKit/Elements";
 
 import Routes from "./Routes";
 
 // @ts-ignore
-import { configMenu } from "data/config.js";
+import { configMenu } from "../data/config.js";
 
 // @ts-ignore
 import classes from "./Layout.module.css";

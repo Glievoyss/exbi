@@ -1,7 +1,7 @@
 import Layout from './Layout/Layout';
 
 import './App.css';
-import './asset/font/stylesheet.css'
+import './assets/font/stylesheet.css'
 
 function App() {
   return (

@@ -8,7 +8,7 @@ import {
   DateTime,
   Input,
   Confirmed,
-} from "components/atomsKit/Elements";
+} from "../../components/atomsKit/Elements";
 
 import { observer } from "mobx-react-lite";
 
@@ -16,7 +16,7 @@ import state from "../../store/state";
 
 // @ts-ignore
 import { tableConfig } from "./helpers/tableConfig";
-import { parsIcon, parsStatus } from "helpers/helpers";
+import { parsIcon, parsStatus } from "../../helpers/helpers";
 
 // @ts-ignore
 import classes from "./Order.module.css";

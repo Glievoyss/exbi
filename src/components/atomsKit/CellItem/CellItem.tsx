@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "components/atomsKit/Elements";
+import { Icon } from "../Elements";
 
 // @ts-ignore
 import classes from "./CellItem.module.css";

@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Icon } from "../Elements";
+import  Icon from "../Icon/Icon";
 
-import { TMenuList } from "data/types";
+import { TMenuList } from "../../../data/types";
 
 // @ts-ignore
 import classes from "./MenuList.module.css";

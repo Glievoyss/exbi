@@ -1,7 +1,9 @@
 import IcoMoon from "react-icomoon";
-const iconSet = require("data/selection.json");
+
+import iconSet from '../../../data/selection.json'
 
 const Icon = ({ ...props }) => {
+  // @ts-ignore
   return <IcoMoon iconSet={iconSet} {...props} />;
 };
 

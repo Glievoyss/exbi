@@ -1,4 +1,4 @@
-import Orders from "pages/Order/Order";
+import Orders from "../pages/Order/Order";
 
 // @ts-ignore
 import classes from "./Layout.module.css";

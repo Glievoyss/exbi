@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
-import { mokData } from "data/mokData";
-import { filterAll } from "helpers/helpers";
+import { mokData } from "../data/mokData";
+import { filterAll } from "../helpers/helpers";
 
 class State {
   // пoки взяв тип эні, а так рoзпишу тип який буде летіти з беку
