@@ -2,7 +2,7 @@ import React from "react";
 
 import  Icon from "../Icon/Icon";
 
-import { TMenuList } from "../../../data/types";
+import { TMenuList, TOptionMenu } from "../../../data/types";
 
 // @ts-ignore
 import classes from "./MenuList.module.css";
@@ -18,7 +18,7 @@ const MenuList: React.FC<IProps> = (props) => {
       <p className={classes.title}>MENU</p>
       <ul>
         {menuList.map(
-          (option: { name: string, icon: string, link?: string }) => (
+          (option: TOptionMenu) => (
             <li key={option.name} className={classes.itemList}>
               <a className={classes.link}>
                 <Icon
