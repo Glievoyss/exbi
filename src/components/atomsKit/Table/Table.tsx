@@ -1,15 +1,13 @@
-
-
 // @ts-ignore
 import classes from "./Table.module.css";
 
 interface IProps {
-  tableConfig: {cells: {name:string, sortable: boolean}[]};
-  children: React.ReactElement
+  tableConfig: { cells: { name: string, sortable: boolean }[] };
+  children: React.ReactElement;
 }
 
 const Table: React.FC<IProps> = (props) => {
-  const {tableConfig, children}= props;
+  const { tableConfig, children } = props;
   return (
     <>
       <table className={classes.table}>
@@ -22,9 +20,7 @@ const Table: React.FC<IProps> = (props) => {
             ))}
           </tr>
         </thead>
-        <tbody className={classes.head}>
-          {children}
-        </tbody>
+        <tbody className={classes.head}>{children}</tbody>
       </table>
     </>
   );

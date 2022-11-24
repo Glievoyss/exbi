@@ -1,8 +1,7 @@
 import { MenuList } from "components/atomsKit/Elements";
 import { Icon, ButtonIcon } from "components/atomsKit/Elements";
 
-import Routes from './Routes'
-
+import Routes from "./Routes";
 
 // @ts-ignore
 import { configMenu } from "data/config.js";
@@ -17,7 +16,7 @@ const Layout = () => {
       <section className={classes.wrapSideBar}>
         <div className={classes.logoWrap}>
           <h1>
-            <Icon icon={"logo"} className={classes.icon}/>
+            <Icon icon={"logo"} className={classes.icon} />
           </h1>
           <ButtonIcon onClick={() => {}} icon={"Container"} />
         </div>
@@ -27,8 +26,7 @@ const Layout = () => {
       </section>
       {/* /////LeftSIdeBar */}
       <Routes />
-      </div>
-   
+    </div>
   );
 };
 
